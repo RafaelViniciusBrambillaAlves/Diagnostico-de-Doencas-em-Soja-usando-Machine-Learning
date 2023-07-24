@@ -57,20 +57,17 @@ F1-Score: Média harmônica entre precisão e recall
 | Instâncias | 0.8341 | 0.8502 | 0.8565 | 0.8499 |
 | Random Forest | 0.9512 | 0.9699 | 0.9690 | 0.9680 |
 | GBM | 0.9707 | 0.9840 | 0.9741 | 0.9775 |
-| Rede Neural | 0.9024 | 0.9364 | 0.9341 | 0.9320 |
-| Deep Learning | 0.9219 | 0.9424 | 0.9427 | 0.9411 |
+| Rede Neural | 0.9219 | 0.9543 | 0.9508 | 0.9514 |
+| Deep Learning | 0.9268 | 0.9550 | 0.9388 | 0.9440 |
 
 </div>
 
 ***
 ## 📋 Resultados 
 
+O Gradient Boosting Machine (GBM) obteve o melhor desempenho geral em todas as métricas avaliadas, com uma acurácia de 97.07%, uma precisão de 98.40%, um recall de 97.41% e um F1-Score de 97.75%. Isso indica que o GBM é a técnica mais eficaz para o diagnóstico de doenças em soja entre as listadas.
 
-Com base nos resultados apresentados na tabela, podemos tirar as seguintes conclusões:
-
-O Gradient Boosting Machine (GBM) obteve o melhor desempenho geral em todas as métricas avaliadas, com uma acurácia de 97.07%, uma precisão de 98.40%, um recall de 97.41% e um F1-Score de 97.75%. Isso indica que o GBM é uma técnica muito eficaz para o problema em questão.
-
-A Random Forest também obteve um excelente desempenho, apresentando a segunda melhor acurácia (95.12%) e pontuações muito altas em precisão, recall e F1-Score. Essa técnica mostrou-se bastante efetiva no diagnóstico de doenças em soja.
+A Random Forest também apresentou um excelente desempenho, com a segunda melhor acurácia (95.12%) e pontuações muito altas em precisão, recall e F1-Score. Essa técnica mostrou-se bastante efetiva no diagnóstico de doenças em soja.
 
 As técnicas de Naive Bayes, Árvore de Decisão, Rede Neural e Deep Learning também demonstraram bom desempenho, com acurácias superiores a 90% e pontuações consistentes em precisão, recall e F1-Score.
 
