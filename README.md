@@ -61,3 +61,20 @@ F1-Score: Média harmônica entre precisão e recall
 | Deep Learning | 0.9219 | 0.9424 | 0.9427 | 0.9411 |
 
 </div>
+
+***
+## 📋 Resultados 
+
+
+Com base nos resultados apresentados na tabela, podemos tirar as seguintes conclusões:
+
+O Gradient Boosting Machine (GBM) obteve o melhor desempenho geral em todas as métricas avaliadas, com uma acurácia de 97.07%, uma precisão de 98.40%, um recall de 97.41% e um F1-Score de 97.75%. Isso indica que o GBM é uma técnica muito eficaz para o problema em questão.
+
+A Random Forest também obteve um excelente desempenho, apresentando a segunda melhor acurácia (95.12%) e pontuações muito altas em precisão, recall e F1-Score. Essa técnica mostrou-se bastante efetiva no diagnóstico de doenças em soja.
+
+As técnicas de Naive Bayes, Árvore de Decisão, Rede Neural e Deep Learning também demonstraram bom desempenho, com acurácias superiores a 90% e pontuações consistentes em precisão, recall e F1-Score.
+
+A técnica de Seleção de Atributos apresentou um desempenho satisfatório em termos de acurácia, mas suas métricas de precisão, recall e F1-Score ficaram um pouco abaixo em comparação com outras técnicas.
+
+A técnica de Instâncias teve a menor acurácia e, embora tenha apresentado resultados razoáveis em outras métricas, ficou atrás das outras abordagens.
+
