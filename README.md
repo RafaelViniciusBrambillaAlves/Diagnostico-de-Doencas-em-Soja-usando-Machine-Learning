@@ -3,7 +3,8 @@
 Projeto fictício. O conteúdo apresentado neste projeto, incluindo os dados, não são reais.
 ***
 ## 🍃 Contexto e Descrição do Desafio
-Bem-vindo ao projeto de Diagnóstico de Doenças em Soja! Neste repositório, exploramos a aplicação de técnicas de Machine Learning para auxiliar no diagnóstico de doenças em plantas de soja. O objetivo deste projeto é desenvolver um modelo de aprendizado de máquina capaz de identificar e classificar doenças.
+Bem-vindo ao projeto de Diagnóstico de Doenças em Soja! Neste repositório, exploramos a aplicação de técnicas de Machine Learning para auxiliar no diagnóstico de doenças em plantas de soja. 
+
 O objetivo principal do projeto é desenvolver um modelo de aprendizado de máquina altamente eficiente e preciso para o diagnóstico de doenças em plantas de soja.
 
 ***
@@ -14,10 +15,49 @@ Modelagem: Utilizamos algoritmos para construir um modelo de classificação cap
 
 Treinamento e Validação: Dividimos o conjunto de dados em conjuntos de treinamento e teste para treinar o modelo e avaliar sua precisão e desempenho.
 
-Avaliação do Modelo: Avaliamos o desempenho do modelo utilizando diversas métricas de avaliação, como acurácia, matriz de confusão e curva ROC.
-
+Avaliação do Modelo: Avaliamos o desempenho do modelo utilizando diversas métricas de avaliação, como acurácia, matriz de confusão, F1-Score, Precisão, Recall e curva ROC.
 ***
-## 🥇 Comparação de Técnicas de Machine Learning
+## 🔎 Técnicas de Machine Learning
+
+Naive Bayes: É um algoritmo de classificação probabilística baseado no Teorema de Bayes. É simples, rápido e eficiente, especialmente para classificação de textos e problemas com alta dimensionalidade.
+
+Árvore de Decisão: É um modelo de aprendizado supervisionado que utiliza uma estrutura em forma de árvore para tomar decisões sequenciais com base nas características dos dados.
+
+Seleção de Atributos: É um processo de escolha das características mais relevantes e informativas do conjunto de dados para melhorar o desempenho do modelo e reduzir a dimensionalidade.
+
+Instâncias: Refere-se às observações individuais ou amostras de dados que compõem o conjunto de treinamento ou teste para o modelo de Machine Learning.
+
+Random Forest: É um algoritmo que combina várias árvores de decisão para fazer previsões mais precisas e reduzir o overfitting.
+
+GBM (Gradient Boosting Machine): É uma técnica de Machine Learning que combina várias árvores de decisão fracas para criar um modelo mais forte e melhorar a precisão das previsões.
+
+Rede Neural: É um modelo inspirado na estrutura do cérebro humano, composto por camadas de neurônios interconectados, usado para resolver tarefas complexas de aprendizado de máquina.
+
+Deep Learning: É uma subárea do Machine Learning que utiliza redes neurais profundas para extrair e aprender características complexas de dados não estruturados, como imagens, áudio e texto.
+***
+## 🥇 Comparação das Técnicas de Machine Learning
 
 A criação do ranking das técnicas de Machine Learning permitirá uma compreensão clara das abordagens mais eficazes para o diagnóstico de doenças em plantas de soja
 
+Precisão (Precision): Proporção de verdadeiros positivos em relação a todas as previsões positivas do modelo
+
+Acurácia (Accuracy): Proporção de previsões corretas em relação ao total de previsões feitas pelo modelo. Mede a exatidão geral das previsões
+
+Recall (Sensibilidade ou Taxa de Verdadeiros Positivos): Proporção de verdadeiros positivos em relação a todas as instâncias reais positivas
+
+F1-Score: Média harmônica entre precisão e recall
+
+<div align="center">
+
+|Técnica | Acurácia | Precisão | Recall | F1-Score |
+|--------|----------|----------|--------|----------|
+| Naive Baye | 0.8585 | 0.9326 | 0.9384 | 0.9202 |
+| Árvore de Decisão | 0.8926 | 0.9154 | 0.9127 | 0.9063 | 
+| Seleção de Atributos | 0.8536 | 0.9185 | 0.8733 | 0.8766 |
+| Instâncias | 0.8341 | 0.8502 | 0.8565 | 0.8499 |
+| Random Forest | 0.9512 | 0.9699 | 0.9690 | 0.9680 |
+| GBM | 0.9707 | 0.9840 | 0.9741 | 0.9775 |
+| Rede Neural | 0.9024 | 0.9364 | 0.9341 | 0.9320 |
+| Deep Learning | 0.9219 | 0.9424 | 0.9427 | 0.9411 |
+
+</div>
